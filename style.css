@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.netflix_logo {
+  width: 110px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.netflix_logo:hover {
+  transform: scale(1.2);
+  transition: transform 350ms;
+}
+
+.user_avatar {
+  width: 45px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.user_avatar:hover {
+  transform: scale(1.2);
+  transition: transform 350ms;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+h2 {
+  margin-left: 15px;
+}
+
+.banner {
+  background-image: url("assets/money heist.webp");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  object-fit: contain;
+  height: 350px;
+}
+
+.banner_contents {
+  padding-top: 110px;
+  padding-left: 40px;
+}
+
+.banner_title {
+  margin-bottom: 15px;
+}
+
+.banner_description {
+  margin-top: 10px;
+  width: 400px;
+  height: 100px;
+}
+
+.banner_btn {
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.banner_btn:hover {
+  color: black;
+  background-color: gray;
+}
+
+.banner_bottom {
+  height: 40px;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(33, 33, 33, 0.65),
+    #111
+  );
+}
+
+.container_poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 200px;
+  margin-right: 10px;
+}
+
+.container_posters {
+  display: flex;
+  padding: 15px;
+}
+
+.container_poster:hover {
+  transform: scale(1.2);
+  transition: transform 350ms;
+  cursor: pointer;
+}
+
+.container_poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 170px;
+  margin-right: 10px;
+}
+
+.container_posters {
+  display: flex;
+  padding: 15px;
+}
+
+.container_poster:hover {
+  transform: scale(1.2);
+  transition: transform 350ms;
+  cursor: pointer;
+}
